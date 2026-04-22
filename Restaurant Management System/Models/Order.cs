@@ -14,6 +14,7 @@ namespace Restaurant_Management_System.Models
         public int CustomerId { get; set; }
         public string? DeliveryAddress { get; set; }
         public int HandledByEmployeeId { get; set; }
+        //1 to many relationship --> one order can have many order items
 
         public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 

@@ -7,6 +7,7 @@
         public string BranchAddress { get; set; }= "";
         public string ContactNumber { get; set; } = "";
         public string OpeningHours { get; set; } = "";
+        //fk
         public int ManagerId { get; set; }
     }
 }
